@@ -1,0 +1,11 @@
+.build/
+dist/
+.DS_Store
+.vscode/
+
+# Never commit captured cookies / session tokens.
+# The real ones live in ~/Library/Application Support/UsageOverlay/secrets.json,
+# outside this repo, but keep these patterns as a guard.
+secrets.json
+*.secrets.json
+last-response-*.json
